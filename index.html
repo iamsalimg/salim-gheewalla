@@ -4,34 +4,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Salim Gheewalla — Founder & CEO, utilITise | Building Self-Healing IT</title>
-<meta name="description" content="Salim Gheewalla is the Founder & CEO of utilITise, pioneering the Self-Healing IT category. Forbes Tech Council member, patent-pending inventor, agentic AI builder. Houston, TX.">
+<meta name="description" content="Salim Gheewalla is the Founder & CEO of utilITise, pioneering the Self-Healing IT category. Forbes Tech Council, Adweek, CRN, patent-pending inventor, President of OPEN Houston.">
 <meta property="og:title" content="Salim Gheewalla — Building Self-Healing IT">
-<meta property="og:description" content="Founder & CEO of utilITise. Forbes Tech Council. Patent-pending inventor. 15+ years in IT & cybersecurity.">
+<meta property="og:description" content="Founder & CEO of utilITise. Forbes Tech Council. Adweek. CRN. Patent-pending inventor. President, OPEN Houston.">
 <meta property="og:image" content="https://gheewalla.org/hero.jpg">
 <meta property="og:url" content="https://gheewalla.org">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@iamsalimg">
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Salim Gheewalla",
   "jobTitle": "Founder & CEO",
-  "description": "Salim Gheewalla is the Founder & CEO of utilITise, an agentic AI software company pioneering the Self-Healing IT category — autonomously detecting, troubleshooting, and resolving IT issues for SMBs. With 15+ years leading $200M+ IT and cybersecurity divisions, he is a Forbes Tech Council member, patent-pending inventor, and agentic AI builder.",
+  "description": "Salim Gheewalla is the Founder & CEO of utilITise, pioneering the Self-Healing IT category. Forbes Tech Council member, Adweek panelist, CRN Next-Gen Leader, patent-pending inventor, President of OPEN Houston.",
   "url": "https://gheewalla.org",
   "image": "https://gheewalla.org/hero.jpg",
   "email": "salim@gheewalla.org",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "utilITise",
-    "url": "https://utilitise.com"
-  },
-  "alumniOf": {
-    "@type": "CollegeOrUniversity",
-    "name": "Texas A&M University — Mays Business School"
-  },
-  "knowsAbout": ["Agentic AI", "Self-Healing IT", "IT Operations", "Cybersecurity", "Brand Marketing", "B2B Marketing", "AI Adoption"],
+  "worksFor": {"@type":"Organization","name":"utilITise","url":"https://utilitise.com"},
+  "alumniOf": {"@type":"CollegeOrUniversity","name":"Texas A&M University — Mays Business School"},
+  "knowsAbout": ["Agentic AI","Self-Healing IT","IT Operations","Cybersecurity","Brand Marketing","B2B Marketing"],
   "sameAs": [
     "https://www.linkedin.com/in/iamsalim/",
     "https://www.wikidata.org/wiki/Q138666500",
@@ -43,713 +35,392 @@
   ]
 }
 </script>
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; font-size: 16px; }
-
-:root {
-  --gold:       #C8A951;
-  --gold-light: #E2C87A;
-  --gold-dim:   #7A6430;
-  --gold-glow:  rgba(200,169,81,0.12);
-  --ink:        #0A0A09;
-  --ink-2:      #0F0F0E;
-  --ink-3:      #161614;
-  --ink-4:      #1E1E1B;
-  --ash:        #2A2A26;
-  --mist:       #4A4A44;
-  --fog:        #787870;
-  --smoke:      #AEAEA4;
-  --bone:       #D4D2C8;
-  --white:      #F0EDE6;
-  --serif:      'Cormorant Garamond', Georgia, serif;
-  --sans:       'Montserrat', sans-serif;
-  --ease:       cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-body {
-  background: var(--ink);
-  color: var(--white);
-  font-family: var(--sans);
-  font-weight: 300;
-  overflow-x: hidden;
-  cursor: none;
-  -webkit-font-smoothing: antialiased;
-}
-
-/* ── CURSOR ─────────────────────────────── */
-#cur { position:fixed; width:7px; height:7px; background:var(--gold); border-radius:50%; pointer-events:none; z-index:9999; transform:translate(-50%,-50%); transition:transform .2s var(--ease),background .2s; }
-#cur-ring { position:fixed; width:36px; height:36px; border:1px solid rgba(200,169,81,.35); border-radius:50%; pointer-events:none; z-index:9998; transform:translate(-50%,-50%); }
-body.link-hover #cur { transform:translate(-50%,-50%) scale(3); background:var(--gold-light); }
-body.link-hover #cur-ring { border-color:rgba(200,169,81,.7); transform:translate(-50%,-50%) scale(1.4); }
-
-/* ── NAV ─────────────────────────────────── */
-nav {
-  position: fixed; top:0; left:0; right:0; z-index:100;
-  display: flex; justify-content:space-between; align-items:center;
-  padding: 2.2rem 5rem;
-  transition: padding .5s var(--ease), background .5s, border-color .5s;
-  border-bottom: 1px solid transparent;
-}
-nav.scrolled {
-  background: rgba(10,10,9,.94);
-  backdrop-filter: blur(16px);
-  padding: 1.3rem 5rem;
-  border-bottom-color: rgba(200,169,81,.1);
-}
-.nav-logo {
-  font-family: var(--serif); font-size:1.15rem; font-weight:400;
-  letter-spacing:.06em; color:var(--gold); text-decoration:none;
-}
-.nav-links { display:flex; gap:3.5rem; list-style:none; }
-.nav-links a {
-  font-family:var(--sans); font-size:.62rem; font-weight:500;
-  letter-spacing:.22em; text-transform:uppercase; color:var(--smoke);
-  text-decoration:none; transition:color .3s; position:relative;
-}
-.nav-links a::after {
-  content:''; position:absolute; bottom:-5px; left:0;
-  width:0; height:1px; background:var(--gold); transition:width .35s var(--ease);
-}
-.nav-links a:hover { color:var(--gold); }
-.nav-links a:hover::after { width:100%; }
-
-/* ── HERO ─────────────────────────────────── */
-.hero {
-  min-height:100vh; display:grid; grid-template-columns: 55% 45%;
-  position:relative; overflow:hidden;
-}
-.hero-left {
-  display:flex; flex-direction:column; justify-content:flex-end;
-  padding: 10rem 5rem 7rem; position:relative; z-index:2;
-}
-.hero-eyebrow {
-  font-family:var(--sans); font-size:.6rem; font-weight:600;
-  letter-spacing:.35em; text-transform:uppercase; color:var(--gold);
-  margin-bottom:2.2rem;
-  opacity:0; animation: up .9s var(--ease) .3s forwards;
-}
-.hero-name {
-  font-family:var(--serif); font-size:clamp(5rem,8.5vw,10rem);
-  font-weight:300; line-height:.88; letter-spacing:-.025em; color:var(--white);
-  opacity:0; animation: up 1s var(--ease) .5s forwards;
-}
-.hero-name em { font-style:italic; color:var(--gold-light); display:block; }
-.hero-divider {
-  width:0; height:1px; background:var(--gold); margin:3rem 0 2.5rem;
-  animation: line 1s var(--ease) 1s forwards;
-}
-.hero-role {
-  font-family:var(--sans); font-size:.68rem; font-weight:400;
-  letter-spacing:.18em; text-transform:uppercase; color:var(--fog);
-  line-height:2.2;
-  opacity:0; animation: up .9s var(--ease) 1.2s forwards;
-}
-.hero-role strong { color:var(--smoke); font-weight:500; }
-.hero-actions {
-  display:flex; gap:2rem; align-items:center; margin-top:3.5rem;
-  opacity:0; animation: up .9s var(--ease) 1.4s forwards;
-}
-.btn-gold {
-  font-family:var(--sans); font-size:.62rem; font-weight:600;
-  letter-spacing:.2em; text-transform:uppercase;
-  background:var(--gold); color:var(--ink);
-  padding:.95rem 2.6rem; text-decoration:none;
-  position:relative; overflow:hidden; transition:color .3s;
-}
-.btn-gold::before {
-  content:''; position:absolute; inset:0; background:var(--gold-light);
-  transform:translateX(-100%); transition:transform .35s var(--ease);
-}
-.btn-gold:hover::before { transform:translateX(0); }
-.btn-gold span { position:relative; z-index:1; }
-.btn-line {
-  font-family:var(--sans); font-size:.62rem; font-weight:500;
-  letter-spacing:.2em; text-transform:uppercase; color:var(--smoke);
-  text-decoration:none; transition:color .3s;
-  display:flex; align-items:center; gap:.7rem;
-}
-.btn-line::after { content:'→'; transition:transform .3s; }
-.btn-line:hover { color:var(--gold); }
-.btn-line:hover::after { transform:translateX(5px); }
-
-.hero-right { position:relative; overflow:hidden; }
-.hero-img {
-  width:100%; height:100%; object-fit:cover; object-position:50% 15%;
-  filter:grayscale(15%) contrast(1.08) brightness(.92);
-  opacity:0; animation:fade 1.8s var(--ease) .1s forwards;
-}
-.hero-overlay {
-  position:absolute; inset:0;
-  background:
-    linear-gradient(to right, var(--ink) 0%, rgba(10,10,9,.3) 35%, transparent 60%),
-    linear-gradient(to top, var(--ink) 0%, transparent 35%);
-}
-.hero-num {
-  position:absolute; bottom:4rem; right:4rem;
-  font-family:var(--serif); font-size:14rem; font-weight:300;
-  color:rgba(200,169,81,.04); line-height:1; pointer-events:none;
-  opacity:0; animation:fade 2s var(--ease) 1.5s forwards;
-}
-
-/* ── ABOUT ───────────────────────────────── */
-.about {
-  background:var(--ink-2); display:grid;
-  grid-template-columns: 1fr 1.7fr; gap:7rem;
-  padding:9rem 5rem; align-items:start;
-}
-.about-left {}
-.section-tag {
-  font-family:var(--sans); font-size:.58rem; font-weight:600;
-  letter-spacing:.35em; text-transform:uppercase; color:var(--gold);
-  margin-bottom:2rem; display:flex; align-items:center; gap:1rem;
-}
-.section-tag::before {
-  content:''; display:block; width:2.5rem; height:1px;
-  background:var(--gold); flex-shrink:0;
-}
-.about-hed {
-  font-family:var(--serif); font-size:clamp(2.8rem,4vw,5.5rem);
-  font-weight:300; line-height:1.02; color:var(--white); margin-bottom:4rem;
-}
-.about-hed em { font-style:italic; color:var(--gold-light); }
-.stats { display:flex; flex-direction:column; gap:0; }
-.stat {
-  border-top:1px solid var(--ash); padding:2rem 0;
-  transition:padding-left .3s;
-}
-.stat:hover { padding-left:.8rem; }
-.stat-n {
-  font-family:var(--serif); font-size:3.2rem; font-weight:300;
-  color:var(--gold); line-height:1;
-}
-.stat-l {
-  font-family:var(--sans); font-size:.6rem; font-weight:400;
-  letter-spacing:.15em; text-transform:uppercase; color:var(--mist);
-  margin-top:.4rem;
-}
-
-.about-right {}
-.about-img-wrap {
-  margin-bottom:4rem; position:relative; overflow:hidden;
-  height:380px;
-}
-.about-img {
-  width:100%; height:100%; object-fit:cover; object-position:50% 20%;
-  filter:grayscale(20%) contrast(1.05);
-  transition:transform .8s var(--ease);
-}
-.about-img-wrap:hover .about-img { transform:scale(1.03); }
-.about-img-caption {
-  position:absolute; bottom:0; left:0; right:0;
-  padding:1.5rem; background:linear-gradient(transparent,rgba(10,10,9,.85));
-  font-family:var(--sans); font-size:.6rem; font-weight:400;
-  letter-spacing:.15em; text-transform:uppercase; color:var(--fog);
-}
-.about-body {
-  font-family:var(--serif); font-size:1.22rem; font-weight:300;
-  line-height:1.88; color:var(--smoke); margin-bottom:1.8rem;
-}
-.about-body strong { color:var(--white); font-weight:400; }
-.creds { margin-top:3rem; }
-.cred {
-  display:flex; align-items:center; gap:1.5rem;
-  padding:1.15rem 0; border-bottom:1px solid var(--ash);
-  transition:padding-left .3s;
-}
-.cred:first-child { border-top:1px solid var(--ash); }
-.cred:hover { padding-left:.6rem; }
-.cred-dot { width:5px; height:5px; border-radius:50%; background:var(--gold); flex-shrink:0; }
-.cred-text {
-  font-family:var(--sans); font-size:.68rem; font-weight:300;
-  letter-spacing:.04em; color:var(--smoke); line-height:1.5;
-}
-.cred-text strong { color:var(--white); font-weight:500; }
-
-/* ── WRITING ─────────────────────────────── */
-.writing { background:var(--ink); padding:9rem 5rem; }
-.writing-top {
-  display:flex; justify-content:space-between; align-items:flex-end;
-  margin-bottom:5rem;
-}
-.writing-hed {
-  font-family:var(--serif); font-size:clamp(3rem,5.5vw,7rem);
-  font-weight:300; line-height:.95; color:var(--white);
-}
-.writing-hed em { font-style:italic; color:var(--gold-light); }
-.writing-meta { text-align:right; }
-.writing-count {
-  font-family:var(--serif); font-size:6rem; font-weight:300;
-  color:rgba(200,169,81,.12); line-height:1;
-}
-.writing-sub {
-  font-family:var(--sans); font-size:.6rem; letter-spacing:.15em;
-  text-transform:uppercase; color:var(--mist); margin-top:.5rem;
-}
-
-.grid-9 {
-  display:grid; grid-template-columns:repeat(3,1fr);
-  border-top:1px solid var(--ash);
-}
-.art-card {
-  padding:2.8rem 2.8rem 2.8rem 0;
-  border-right:1px solid var(--ash);
-  border-bottom:1px solid var(--ash);
-  text-decoration:none; display:flex; flex-direction:column;
-  position:relative; overflow:hidden;
-  transition:padding-left .4s var(--ease);
-}
-.art-card:nth-child(3n) { border-right:none; }
-.art-card:nth-last-child(-n+3) { border-bottom:none; }
-.art-card::before {
-  content:''; position:absolute; inset:0;
-  background:linear-gradient(135deg,rgba(200,169,81,.05),transparent);
-  opacity:0; transition:opacity .4s;
-}
-.art-card:hover { padding-left:.8rem; }
-.art-card:hover::before { opacity:1; }
-.art-pub {
-  font-family:var(--sans); font-size:.56rem; font-weight:600;
-  letter-spacing:.22em; text-transform:uppercase; color:var(--gold-dim);
-  margin-bottom:1.1rem;
-}
-.art-title {
-  font-family:var(--serif); font-size:1.18rem; font-weight:300;
-  line-height:1.42; color:var(--white); flex:1;
-  transition:color .3s;
-}
-.art-card:hover .art-title { color:var(--gold-light); }
-.art-date {
-  font-family:var(--sans); font-size:.58rem; letter-spacing:.1em;
-  color:var(--mist); margin-top:1.5rem;
-}
-.art-arrow {
-  position:absolute; bottom:2.5rem; right:2rem;
-  color:var(--gold); opacity:0;
-  transform:translate(-6px,6px); transition:all .35s var(--ease);
-  font-size:.9rem;
-}
-.art-card:hover .art-arrow { opacity:1; transform:translate(0,0); }
-
-/* ── RECOGNITION ─────────────────────────── */
-.recognition { background:var(--ink-3); padding:7rem 5rem; }
-.rec-grid {
-  display:grid; grid-template-columns:repeat(4,1fr);
-  margin-top:4rem; border-top:1px solid var(--ash);
-}
-.rec-item {
-  padding:3.5rem 2.5rem 3.5rem 0;
-  border-right:1px solid var(--ash);
-  transition:padding-left .3s;
-}
-.rec-item:last-child { border-right:none; }
-.rec-item:hover { padding-left:.8rem; }
-.rec-n {
-  font-family:var(--serif); font-size:2.5rem; font-weight:300;
-  font-style:italic; color:var(--gold); margin-bottom:1.2rem; line-height:1;
-}
-.rec-title {
-  font-family:var(--sans); font-size:.68rem; font-weight:500;
-  letter-spacing:.08em; color:var(--white); margin-bottom:.6rem;
-}
-.rec-sub {
-  font-family:var(--sans); font-size:.6rem; font-weight:300;
-  letter-spacing:.04em; color:var(--mist); line-height:1.8;
-}
-
-/* ── BUILDING ────────────────────────────── */
-.building {
-  background:var(--ink-2); padding:9rem 5rem;
-  display:grid; grid-template-columns:1fr 1fr; gap:8rem; align-items:center;
-}
-.building-hed {
-  font-family:var(--serif); font-size:clamp(3rem,5vw,6.5rem);
-  font-weight:300; line-height:.96; color:var(--white); margin-bottom:3rem;
-}
-.building-hed em { font-style:italic; color:var(--gold-light); }
-.building-body {
-  font-family:var(--serif); font-size:1.18rem; font-weight:300;
-  line-height:1.9; color:var(--smoke); margin-bottom:2.5rem;
-}
-.building-quote {
-  font-family:var(--serif); font-size:1.35rem; font-weight:300;
-  font-style:italic; color:var(--gold-light);
-  border-left:2px solid var(--gold); padding-left:1.8rem;
-  line-height:1.65; margin-bottom:3.5rem;
-}
-.logo-wrap {
-  margin-bottom:3.5rem; opacity:.7; transition:opacity .3s;
-}
-.logo-wrap:hover { opacity:1; }
-.logo-wrap img { height:52px; width:auto; filter:brightness(1.1); }
-
-.features { display:flex; flex-direction:column; }
-.feat {
-  display:grid; grid-template-columns:4rem 1fr;
-  gap:1.8rem; padding:2.8rem 0; border-bottom:1px solid var(--ash);
-  align-items:start; transition:padding-left .3s;
-}
-.feat:hover { padding-left:.8rem; }
-.feat-n {
-  font-family:var(--serif); font-size:2.2rem; font-weight:300;
-  font-style:italic; color:var(--gold-dim); line-height:1.1;
-}
-.feat-title {
-  font-family:var(--sans); font-size:.68rem; font-weight:600;
-  letter-spacing:.12em; text-transform:uppercase; color:var(--white);
-  margin-bottom:.6rem;
-}
-.feat-desc {
-  font-family:var(--sans); font-size:.66rem; font-weight:300;
-  line-height:1.75; color:var(--fog);
-}
-
-/* ── CONTACT ─────────────────────────────── */
-.contact {
-  background:var(--ink); padding:11rem 5rem;
-  text-align:center; position:relative; overflow:hidden;
-}
-.contact-ghost {
-  position:absolute; top:50%; left:50%;
-  transform:translate(-50%,-50%);
-  font-family:var(--serif); font-size:22rem; font-weight:300;
-  color:rgba(200,169,81,.025); white-space:nowrap; pointer-events:none;
-  letter-spacing:-.06em; line-height:1;
-}
-.contact-hed {
-  font-family:var(--serif); font-size:clamp(4rem,8vw,10rem);
-  font-weight:300; line-height:.9; color:var(--white);
-  margin-bottom:1.5rem; position:relative;
-}
-.contact-hed em { font-style:italic; color:var(--gold-light); }
-.contact-sub {
-  font-family:var(--sans); font-size:.65rem; letter-spacing:.25em;
-  text-transform:uppercase; color:var(--fog);
-  margin-bottom:4.5rem; position:relative;
-}
-.contact-btns {
-  display:flex; justify-content:center; gap:1.5rem;
-  flex-wrap:wrap; position:relative;
-}
-.c-btn {
-  font-family:var(--sans); font-size:.6rem; font-weight:500;
-  letter-spacing:.2em; text-transform:uppercase;
-  color:var(--smoke); text-decoration:none;
-  padding:.95rem 2rem; border:1px solid var(--ash);
-  transition:all .3s;
-}
-.c-btn:hover { color:var(--gold); border-color:rgba(200,169,81,.4); background:var(--gold-glow); }
-.c-btn.primary { background:var(--gold); color:var(--ink); border-color:var(--gold); font-weight:600; }
-.c-btn.primary:hover { background:var(--gold-light); border-color:var(--gold-light); color:var(--ink); }
-
-/* ── FOOTER ──────────────────────────────── */
-footer {
-  background:var(--ink); border-top:1px solid var(--ash);
-  padding:2.8rem 5rem;
-  display:flex; justify-content:space-between; align-items:center;
-}
-.f-logo { font-family:var(--serif); font-size:1rem; color:var(--gold); letter-spacing:.06em; }
-.f-copy { font-family:var(--sans); font-size:.56rem; letter-spacing:.12em; text-transform:uppercase; color:var(--mist); }
-.f-links { display:flex; gap:2.5rem; }
-.f-links a { font-family:var(--sans); font-size:.56rem; letter-spacing:.15em; text-transform:uppercase; color:var(--mist); text-decoration:none; transition:color .3s; }
-.f-links a:hover { color:var(--gold); }
-
-/* ── ANIMATIONS ──────────────────────────── */
-@keyframes up   { from{opacity:0;transform:translateY(28px)} to{opacity:1;transform:translateY(0)} }
-@keyframes fade { from{opacity:0} to{opacity:1} }
-@keyframes line { from{width:0;opacity:0} to{width:56px;opacity:1} }
-
-.reveal { opacity:0; transform:translateY(36px); transition:opacity .9s var(--ease), transform .9s var(--ease); }
-.reveal.in { opacity:1; transform:translateY(0); }
-.reveal-d1 { transition-delay:.1s; }
-.reveal-d2 { transition-delay:.2s; }
-.reveal-d3 { transition-delay:.3s; }
-
-/* ── RESPONSIVE ──────────────────────────── */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+:root{
+  --gold:#C8A951;--gl:#E2C87A;--gd:#7A6430;--gg:rgba(200,169,81,.1);
+  --ink:#0A0A09;--i2:#0F0F0E;--i3:#161614;--i4:#1E1E1B;
+  --ash:#2A2A26;--mist:#4A4A44;--fog:#787870;--smoke:#AEAEA4;--white:#F0EDE6;
+  --sf:'Cormorant Garamond',Georgia,serif;--ss:'Montserrat',sans-serif;
+  --e:cubic-bezier(.25,.46,.45,.94);
+}
+body{background:var(--ink);color:var(--white);font-family:var(--ss);font-weight:300;overflow-x:hidden;cursor:none;-webkit-font-smoothing:antialiased}
+#cur{position:fixed;width:7px;height:7px;background:var(--gold);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:transform .2s var(--e)}
+#ring{position:fixed;width:34px;height:34px;border:1px solid rgba(200,169,81,.3);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:border-color .3s}
+body.lh #cur{transform:translate(-50%,-50%) scale(3)}
+body.lh #ring{border-color:rgba(200,169,81,.7)}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:2.2rem 5rem;border-bottom:1px solid transparent;transition:all .5s var(--e)}
+nav.sc{background:rgba(10,10,9,.95);backdrop-filter:blur(16px);padding:1.3rem 5rem;border-bottom-color:rgba(200,169,81,.1)}
+.nl{font-family:var(--sf);font-size:1.1rem;font-weight:400;letter-spacing:.06em;color:var(--gold);text-decoration:none}
+.nv{display:flex;gap:3rem;list-style:none}
+.nv a{font-family:var(--ss);font-size:.6rem;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--smoke);text-decoration:none;transition:color .3s;position:relative}
+.nv a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:1px;background:var(--gold);transition:width .35s var(--e)}
+.nv a:hover{color:var(--gold)}
+.nv a:hover::after{width:100%}
+.hero{min-height:100vh;display:grid;grid-template-columns:55% 45%;position:relative;overflow:hidden}
+.hl{display:flex;flex-direction:column;justify-content:flex-end;padding:10rem 5rem 7rem;position:relative;z-index:2}
+.he{font-family:var(--ss);font-size:.6rem;font-weight:600;letter-spacing:.35em;text-transform:uppercase;color:var(--gold);margin-bottom:2.2rem;opacity:0;animation:up .9s var(--e) .3s forwards}
+.hn{font-family:var(--sf);font-size:clamp(5rem,8.5vw,10rem);font-weight:300;line-height:.88;letter-spacing:-.025em;color:var(--white);opacity:0;animation:up 1s var(--e) .5s forwards}
+.hn em{font-style:italic;color:var(--gl);display:block}
+.hd{width:0;height:1px;background:var(--gold);margin:3rem 0 2.5rem;animation:ln 1s var(--e) 1s forwards}
+.hr{font-family:var(--ss);font-size:.68rem;font-weight:400;letter-spacing:.18em;text-transform:uppercase;color:var(--fog);line-height:2.2;opacity:0;animation:up .9s var(--e) 1.2s forwards}
+.hr strong{color:var(--smoke);font-weight:500}
+.ha{display:flex;gap:2rem;align-items:center;margin-top:3.5rem;opacity:0;animation:up .9s var(--e) 1.4s forwards}
+.bg{font-family:var(--ss);font-size:.62rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;background:var(--gold);color:var(--ink);padding:.95rem 2.6rem;text-decoration:none;position:relative;overflow:hidden}
+.bg::before{content:'';position:absolute;inset:0;background:var(--gl);transform:translateX(-100%);transition:transform .35s var(--e)}
+.bg:hover::before{transform:translateX(0)}
+.bg span{position:relative;z-index:1}
+.bl{font-family:var(--ss);font-size:.62rem;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--smoke);text-decoration:none;transition:color .3s;display:flex;align-items:center;gap:.7rem}
+.bl::after{content:'→';transition:transform .3s}
+.bl:hover{color:var(--gold)}
+.bl:hover::after{transform:translateX(5px)}
+.hri{position:relative;overflow:hidden}
+.hi{width:100%;height:100%;object-fit:cover;object-position:50% 15%;filter:grayscale(15%) contrast(1.08) brightness(.92);opacity:0;animation:fd 1.8s var(--e) .1s forwards}
+.ho{position:absolute;inset:0;background:linear-gradient(to right,var(--ink) 0%,rgba(10,10,9,.25) 35%,transparent 60%),linear-gradient(to top,var(--ink) 0%,transparent 35%)}
+.hnum{position:absolute;bottom:4rem;right:4rem;font-family:var(--sf);font-size:14rem;font-weight:300;color:rgba(200,169,81,.04);line-height:1;pointer-events:none;opacity:0;animation:fd 2s var(--e) 1.5s forwards}
+section{position:relative}
+.stag{font-family:var(--ss);font-size:.58rem;font-weight:600;letter-spacing:.35em;text-transform:uppercase;color:var(--gold);margin-bottom:2rem;display:flex;align-items:center;gap:1rem}
+.stag::before{content:'';display:block;width:2.5rem;height:1px;background:var(--gold);flex-shrink:0}
+.about{background:var(--i2);display:grid;grid-template-columns:1fr 1.7fr;gap:7rem;padding:9rem 5rem;align-items:start}
+.ah{font-family:var(--sf);font-size:clamp(2.8rem,4vw,5.5rem);font-weight:300;line-height:1.02;color:var(--white);margin-bottom:4rem}
+.ah em{font-style:italic;color:var(--gl)}
+.stats{display:flex;flex-direction:column}
+.stat{border-top:1px solid var(--ash);padding:2rem 0;transition:padding-left .3s}
+.stat:hover{padding-left:.8rem}
+.sn{font-family:var(--sf);font-size:3.2rem;font-weight:300;color:var(--gold);line-height:1}
+.sl{font-family:var(--ss);font-size:.6rem;font-weight:400;letter-spacing:.15em;text-transform:uppercase;color:var(--mist);margin-top:.4rem}
+.aiw{margin-bottom:4rem;position:relative;overflow:hidden;height:360px}
+.ai{width:100%;height:100%;object-fit:cover;object-position:50% 20%;filter:grayscale(20%) contrast(1.05);transition:transform .8s var(--e)}
+.aiw:hover .ai{transform:scale(1.03)}
+.ac{position:absolute;bottom:0;left:0;right:0;padding:1.5rem;background:linear-gradient(transparent,rgba(10,10,9,.85));font-family:var(--ss);font-size:.6rem;font-weight:400;letter-spacing:.15em;text-transform:uppercase;color:var(--fog)}
+.ab{font-family:var(--sf);font-size:1.2rem;font-weight:300;line-height:1.88;color:var(--smoke);margin-bottom:1.8rem}
+.ab strong{color:var(--white);font-weight:400}
+.creds{margin-top:3rem}
+.cred{display:flex;align-items:center;gap:1.5rem;padding:1.15rem 0;border-bottom:1px solid var(--ash);transition:padding-left .3s}
+.cred:first-child{border-top:1px solid var(--ash)}
+.cred:hover{padding-left:.6rem}
+.cd{width:5px;height:5px;border-radius:50%;background:var(--gold);flex-shrink:0}
+.ct{font-family:var(--ss);font-size:.68rem;font-weight:300;letter-spacing:.04em;color:var(--smoke);line-height:1.5}
+.ct strong{color:var(--white);font-weight:500}
+.pubs{background:var(--ink);padding:9rem 5rem}
+.pt{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:5rem}
+.ph{font-family:var(--sf);font-size:clamp(3rem,5.5vw,7rem);font-weight:300;line-height:.95;color:var(--white)}
+.ph em{font-style:italic;color:var(--gl)}
+.pm{text-align:right}
+.pn{font-family:var(--sf);font-size:6rem;font-weight:300;color:rgba(200,169,81,.1);line-height:1}
+.ps{font-family:var(--ss);font-size:.6rem;letter-spacing:.15em;text-transform:uppercase;color:var(--mist);margin-top:.5rem}
+.pg{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--ash)}
+.pc{padding:2.5rem 2rem 2.5rem 0;border-right:1px solid var(--ash);border-bottom:1px solid var(--ash);text-decoration:none;display:flex;flex-direction:column;position:relative;overflow:hidden;transition:padding-left .4s var(--e)}
+.pc:nth-child(4n){border-right:none}
+.pc:nth-last-child(-n+4){border-bottom:none}
+.pc::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(200,169,81,.05),transparent);opacity:0;transition:opacity .4s}
+.pc:hover{padding-left:.7rem}
+.pc:hover::before{opacity:1}
+.po{font-family:var(--ss);font-size:.56rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gd);margin-bottom:1rem}
+.pti{font-family:var(--sf);font-size:1.05rem;font-weight:300;line-height:1.45;color:var(--white);flex:1;transition:color .3s}
+.pc:hover .pti{color:var(--gl)}
+.pd{font-family:var(--ss);font-size:.56rem;letter-spacing:.1em;color:var(--mist);margin-top:1.2rem}
+.pa{position:absolute;bottom:2rem;right:1.5rem;color:var(--gold);opacity:0;transform:translate(-5px,5px);transition:all .35s var(--e);font-size:.85rem}
+.pc:hover .pa{opacity:1;transform:translate(0,0)}
+.rec{background:var(--i3);padding:7rem 5rem}
+.rg{display:grid;grid-template-columns:repeat(4,1fr);margin-top:4rem;border-top:1px solid var(--ash)}
+.ri{padding:3.5rem 2.5rem 3.5rem 0;border-right:1px solid var(--ash);transition:padding-left .3s}
+.ri:last-child{border-right:none}
+.ri:hover{padding-left:.8rem}
+.rn{font-family:var(--sf);font-size:2.5rem;font-weight:300;font-style:italic;color:var(--gold);margin-bottom:1.2rem;line-height:1}
+.rt{font-family:var(--ss);font-size:.68rem;font-weight:500;letter-spacing:.08em;color:var(--white);margin-bottom:.6rem}
+.rs{font-family:var(--ss);font-size:.6rem;font-weight:300;letter-spacing:.04em;color:var(--mist);line-height:1.8}
+.community{background:var(--i2);padding:9rem 5rem}
+.oh{display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:center;margin-bottom:6rem;padding-bottom:6rem;border-bottom:1px solid var(--ash)}
+.ohed{font-family:var(--sf);font-size:clamp(3rem,5vw,6rem);font-weight:300;line-height:.96;color:var(--white);margin-bottom:2rem}
+.ohed em{font-style:italic;color:var(--gl)}
+.obody{font-family:var(--sf);font-size:1.15rem;font-weight:300;line-height:1.9;color:var(--smoke);margin-bottom:2.5rem}
+.olink{font-family:var(--ss);font-size:.62rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);text-decoration:none;display:inline-flex;align-items:center;gap:.7rem;transition:gap .3s}
+.olink::after{content:'→'}
+.olink:hover{gap:1.2rem}
+.osg{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--ash)}
+.osi{padding:2.5rem 2rem 2.5rem 0;border-right:1px solid var(--ash);border-bottom:1px solid var(--ash)}
+.osi:nth-child(2n){border-right:none}
+.osi:nth-last-child(-n+2){border-bottom:none}
+.osn{font-family:var(--sf);font-size:2rem;font-weight:300;color:var(--gold);line-height:1.1}
+.osl{font-family:var(--ss);font-size:.58rem;font-weight:400;letter-spacing:.12em;text-transform:uppercase;color:var(--mist);margin-top:.4rem}
+.cg{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ash)}
+.ci{padding:3rem 2.5rem 3rem 0;border-right:1px solid var(--ash);transition:padding-left .3s}
+.ci:last-child{border-right:none}
+.ci:hover{padding-left:.8rem}
+.crl{font-family:var(--ss);font-size:.58rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gd);margin-bottom:.8rem}
+.corg{font-family:var(--sf);font-size:1.3rem;font-weight:300;color:var(--white);margin-bottom:.8rem;line-height:1.2}
+.cdesc{font-family:var(--ss);font-size:.65rem;font-weight:300;line-height:1.75;color:var(--fog)}
+.career{background:var(--ink);padding:9rem 5rem}
+.ci2{display:grid;grid-template-columns:1fr 2fr;gap:8rem;align-items:start}
+.ch{font-family:var(--sf);font-size:clamp(3rem,5vw,6rem);font-weight:300;line-height:.96;color:var(--white)}
+.ch em{font-style:italic;color:var(--gl)}
+.cn{font-family:var(--ss);font-size:.68rem;font-weight:300;line-height:1.75;color:var(--fog);margin-top:2rem}
+.tl{display:flex;flex-direction:column}
+.ti{display:grid;grid-template-columns:2.5rem 1fr;gap:2rem;padding:3rem 0;border-bottom:1px solid var(--ash);transition:padding-left .3s}
+.ti:hover{padding-left:.8rem}
+.ti:last-child{border-bottom:none}
+.tdw{display:flex;flex-direction:column;align-items:center;padding-top:.4rem}
+.tdo{width:10px;height:10px;border-radius:50%;background:var(--gold);flex-shrink:0}
+.tline{flex:1;width:1px;background:var(--ash);margin-top:.5rem}
+.ti:last-child .tline{display:none}
+.tp{font-family:var(--ss);font-size:.58rem;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:var(--gd);margin-bottom:.6rem}
+.tro{font-family:var(--sf);font-size:1.3rem;font-weight:300;color:var(--white);margin-bottom:.4rem;line-height:1.2}
+.to{font-family:var(--ss);font-size:.65rem;font-weight:500;letter-spacing:.05em;color:var(--smoke);margin-bottom:.8rem}
+.td{font-family:var(--ss);font-size:.65rem;font-weight:300;line-height:1.75;color:var(--fog)}
+.building{background:var(--i3);padding:9rem 5rem;display:grid;grid-template-columns:1fr 1fr;gap:8rem;align-items:center}
+.bh{font-family:var(--sf);font-size:clamp(3rem,5vw,6.5rem);font-weight:300;line-height:.96;color:var(--white);margin-bottom:3rem}
+.bh em{font-style:italic;color:var(--gl)}
+.bb{font-family:var(--sf);font-size:1.18rem;font-weight:300;line-height:1.9;color:var(--smoke);margin-bottom:2.5rem}
+.bq{font-family:var(--sf);font-size:1.3rem;font-weight:300;font-style:italic;color:var(--gl);border-left:2px solid var(--gold);padding-left:1.8rem;line-height:1.65;margin-bottom:3.5rem}
+.lw{margin-bottom:3rem;opacity:.7;transition:opacity .3s}
+.lw:hover{opacity:1}
+.lw img{height:48px;width:auto}
+.feats{display:flex;flex-direction:column}
+.feat{display:grid;grid-template-columns:4rem 1fr;gap:1.8rem;padding:2.8rem 0;border-bottom:1px solid var(--ash);align-items:start;transition:padding-left .3s}
+.feat:hover{padding-left:.8rem}
+.fn{font-family:var(--sf);font-size:2.2rem;font-weight:300;font-style:italic;color:var(--gd);line-height:1.1}
+.ft{font-family:var(--ss);font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--white);margin-bottom:.6rem}
+.fd{font-family:var(--ss);font-size:.65rem;font-weight:300;line-height:1.75;color:var(--fog)}
+.speaking{background:var(--i2);padding:7rem 5rem}
+.spg{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ash);margin-top:4rem}
+.spi{padding:3.5rem 2.5rem 3.5rem 0;border-right:1px solid var(--ash);transition:padding-left .3s}
+.spi:last-child{border-right:none}
+.spi:hover{padding-left:.8rem}
+.spty{font-family:var(--ss);font-size:.56rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gd);margin-bottom:.8rem}
+.spti{font-family:var(--sf);font-size:1.25rem;font-weight:300;color:var(--white);margin-bottom:.8rem;line-height:1.3}
+.spd{font-family:var(--ss);font-size:.63rem;font-weight:300;line-height:1.75;color:var(--fog)}
+.contact{background:var(--ink);padding:11rem 5rem;text-align:center;position:relative;overflow:hidden}
+.cgh{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:var(--sf);font-size:22rem;font-weight:300;color:rgba(200,169,81,.025);white-space:nowrap;pointer-events:none;letter-spacing:-.06em;line-height:1}
+.conthed{font-family:var(--sf);font-size:clamp(4rem,8vw,10rem);font-weight:300;line-height:.9;color:var(--white);margin-bottom:1.5rem;position:relative}
+.conthed em{font-style:italic;color:var(--gl)}
+.contsub{font-family:var(--ss);font-size:.65rem;letter-spacing:.25em;text-transform:uppercase;color:var(--fog);margin-bottom:4.5rem;position:relative}
+.cbs{display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap;position:relative}
+.cb{font-family:var(--ss);font-size:.6rem;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--smoke);text-decoration:none;padding:.95rem 2rem;border:1px solid var(--ash);transition:all .3s}
+.cb:hover{color:var(--gold);border-color:rgba(200,169,81,.4);background:var(--gg)}
+.cb.p{background:var(--gold);color:var(--ink);border-color:var(--gold);font-weight:600}
+.cb.p:hover{background:var(--gl);border-color:var(--gl);color:var(--ink)}
+footer{background:var(--ink);border-top:1px solid var(--ash);padding:2.8rem 5rem;display:flex;justify-content:space-between;align-items:center}
+.flo{font-family:var(--sf);font-size:1rem;color:var(--gold);letter-spacing:.06em}
+.fco{font-family:var(--ss);font-size:.56rem;letter-spacing:.12em;text-transform:uppercase;color:var(--mist)}
+.fli{display:flex;gap:2.5rem}
+.fli a{font-family:var(--ss);font-size:.56rem;letter-spacing:.15em;text-transform:uppercase;color:var(--mist);text-decoration:none;transition:color .3s}
+.fli a:hover{color:var(--gold)}
+@keyframes up{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fd{from{opacity:0}to{opacity:1}}
+@keyframes ln{from{width:0;opacity:0}to{width:56px;opacity:1}}
+.reveal{opacity:0;transform:translateY(36px);transition:opacity .9s var(--e),transform .9s var(--e)}
+.reveal.in{opacity:1;transform:translateY(0)}
+.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}
 @media(max-width:1100px){
-  nav,nav.scrolled { padding-left:2.5rem; padding-right:2.5rem; }
-  .nav-links { gap:2rem; }
-  .hero { grid-template-columns:1fr; }
-  .hero-left { padding:9rem 2.5rem 5rem; }
-  .hero-right { height:70vw; }
-  .hero-name { font-size:clamp(4rem,14vw,7rem); }
-  .about,.building { grid-template-columns:1fr; gap:4rem; padding:6rem 2.5rem; }
-  .writing,.recognition,.contact { padding:6rem 2.5rem; }
-  .grid-9 { grid-template-columns:1fr 1fr; }
-  .art-card:nth-child(3n) { border-right:1px solid var(--ash); }
-  .art-card:nth-child(2n) { border-right:none; }
-  .art-card:nth-last-child(-n+3) { border-bottom:1px solid var(--ash); }
-  .art-card:nth-last-child(-n+2) { border-bottom:none; }
-  .rec-grid { grid-template-columns:1fr 1fr; }
-  .rec-item:nth-child(2n){ border-right:none; }
-  .rec-item:nth-child(n+3){ border-top:1px solid var(--ash); }
-  .contact-ghost { font-size:10rem; }
-  footer { flex-direction:column; gap:1.5rem; text-align:center; }
-  .nav-links { display:none; }
+  nav,nav.sc{padding-left:2.5rem;padding-right:2.5rem}
+  .nv{display:none}
+  .hero{grid-template-columns:1fr}
+  .hl{padding:9rem 2.5rem 5rem}
+  .hri{height:70vw}
+  .hn{font-size:clamp(4rem,14vw,7rem)}
+  .about,.building,.ci2,.oh{grid-template-columns:1fr;gap:4rem}
+  .pubs,.rec,.community,.career,.speaking,.contact{padding:6rem 2.5rem}
+  .about{padding:6rem 2.5rem}
+  .pg{grid-template-columns:1fr 1fr}
+  .pc:nth-child(4n){border-right:1px solid var(--ash)}
+  .pc:nth-child(2n){border-right:none}
+  .rg,.cg,.spg{grid-template-columns:1fr 1fr}
+  .ri:nth-child(2n),.ci:nth-child(2n),.spi:nth-child(2n){border-right:none}
+  .ri:nth-child(n+3),.ci:nth-child(n+3){border-top:1px solid var(--ash)}
+  .osg{grid-template-columns:1fr 1fr}
+  .cgh{font-size:8rem}
+  footer{flex-direction:column;gap:1.5rem;text-align:center}
 }
 </style>
 </head>
 <body>
-
 <div id="cur"></div>
-<div id="cur-ring"></div>
-
-<!-- NAV -->
+<div id="ring"></div>
 <nav id="nav">
-  <a href="#" class="nav-logo">S · G</a>
-  <ul class="nav-links">
+  <a href="#" class="nl">S · G</a>
+  <ul class="nv">
     <li><a href="#about">About</a></li>
-    <li><a href="#writing">Writing</a></li>
+    <li><a href="#pubs">Writing</a></li>
+    <li><a href="#community">Community</a></li>
+    <li><a href="#career">Career</a></li>
     <li><a href="#building">Building</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 
-<!-- HERO -->
 <section class="hero">
-  <div class="hero-left">
-    <p class="hero-eyebrow">Founder · Inventor · Author · Builder</p>
-    <h1 class="hero-name">Salim<br><em>Gheewalla</em></h1>
-    <div class="hero-divider"></div>
-    <p class="hero-role">
-      <strong>Founder &amp; CEO — utilITise</strong><br>
-      Building Self-Healing IT<br>
-      Forbes Tech Council · Houston, TX
-    </p>
-    <div class="hero-actions">
-      <a href="#building" class="btn-gold"><span>See What I'm Building</span></a>
-      <a href="#writing" class="btn-line">Read My Work</a>
+  <div class="hl">
+    <p class="he">Founder · Inventor · Author · Builder · Community Leader</p>
+    <h1 class="hn">Salim<br><em>Gheewalla</em></h1>
+    <div class="hd"></div>
+    <p class="hr"><strong>Founder &amp; CEO — utilITise</strong><br>Building Self-Healing IT<br>Forbes Tech Council · Houston, TX</p>
+    <div class="ha">
+      <a href="#building" class="bg"><span>See What I'm Building</span></a>
+      <a href="#pubs" class="bl">Read My Work</a>
     </div>
   </div>
-  <div class="hero-right">
-    <img src="hero.jpg" alt="Salim Gheewalla — Founder & CEO, utilITise" class="hero-img">
-    <div class="hero-overlay"></div>
+  <div class="hri">
+    <img src="hero.jpg" alt="Salim Gheewalla" class="hi">
+    <div class="ho"></div>
   </div>
-  <div class="hero-num">01</div>
+  <div class="hnum">01</div>
 </section>
 
-<!-- ABOUT -->
-<section class="about" id="about">
-  <div class="about-left reveal">
-    <p class="section-tag">Profile</p>
-    <h2 class="about-hed">At the<br>intersection<br>of <em>tech,<br>brand &amp;<br>story.</em></h2>
+<section class="about reveal" id="about">
+  <div>
+    <p class="stag">Profile</p>
+    <h2 class="ah">At the<br>intersection<br>of <em>tech,<br>brand &amp;<br>story.</em></h2>
     <div class="stats">
-      <div class="stat">
-        <div class="stat-n">15+</div>
-        <div class="stat-l">Years in Enterprise IT &amp; Cybersecurity</div>
-      </div>
-      <div class="stat">
-        <div class="stat-n">$200M+</div>
-        <div class="stat-l">IT Divisions Led</div>
-      </div>
-      <div class="stat">
-        <div class="stat-n">9</div>
-        <div class="stat-l">Forbes Articles Published</div>
-      </div>
+      <div class="stat"><div class="sn">15+</div><div class="sl">Years in Enterprise IT &amp; Cybersecurity</div></div>
+      <div class="stat"><div class="sn">$200M+</div><div class="sl">IT Divisions Led</div></div>
+      <div class="stat"><div class="sn">12+</div><div class="sl">Publications &amp; Features</div></div>
+      <div class="stat"><div class="sn">5</div><div class="sl">Companies Led Through M&amp;A</div></div>
     </div>
   </div>
-
-  <div class="about-right reveal reveal-d2">
-    <div class="about-img-wrap">
-      <img src="salim-about.jpg" alt="Salim Gheewalla" class="about-img">
-      <div class="about-img-caption">Founder &amp; CEO · utilITise · Houston, TX</div>
-    </div>
-    <p class="about-body">
-      I build at the intersection of <strong>business, technology, and story</strong> — turning complex IT infrastructure into growth engines for the businesses that need it most.
-    </p>
-    <p class="about-body">
-      Fifteen years leading $200M+ IT and cybersecurity divisions taught me one thing: the problem with IT is not the technology. It requires constant human attention to work. I started <strong>utilITise</strong> to change that — building agentic AI that autonomously detects, troubleshoots, and resolves IT issues before anyone notices they exist.
-    </p>
+  <div class="reveal d2">
+    <div class="aiw"><img src="salim-about.jpg" alt="Salim Gheewalla" class="ai"><div class="ac">Founder &amp; CEO · utilITise · Houston, TX</div></div>
+    <p class="ab">I build at the intersection of <strong>business, technology, and story</strong> — turning complex IT into momentum-driving, customer-admired growth engines.</p>
+    <p class="ab">Fifteen years leading $200M+ IT and cybersecurity divisions taught me one thing: the problem with IT is not the technology. It requires constant human attention to work. I started <strong>utilITise</strong> to fix that — agentic AI that resolves IT issues before anyone notices they exist.</p>
+    <p class="ab">I'm a technologist at heart and a marketer by craft. My philosophy stays consistent: <strong>Know us. Like us. Trust us. Pay us.</strong></p>
     <div class="creds">
-      <div class="cred"><div class="cred-dot"></div><div class="cred-text"><strong>Founder &amp; CEO</strong> — utilITise | Self-Healing IT</div></div>
-      <div class="cred"><div class="cred-dot"></div><div class="cred-text"><strong>Forbes Tech Council</strong> — Member &amp; Published Author</div></div>
-      <div class="cred"><div class="cred-dot"></div><div class="cred-text"><strong>Forbes Communications Council</strong> — Member &amp; Published Author</div></div>
-      <div class="cred"><div class="cred-dot"></div><div class="cred-text"><strong>Senior Executive AI Think Tank</strong> — Member</div></div>
-      <div class="cred"><div class="cred-dot"></div><div class="cred-text"><strong>CRN 2023 Next-Gen Solution Provider Leader</strong></div></div>
-      <div class="cred"><div class="cred-dot"></div><div class="cred-text"><strong>Patent-Pending Inventor</strong> — Agentic IT Infrastructure</div></div>
-      <div class="cred"><div class="cred-dot"></div><div class="cred-text"><strong>Texas A&amp;M University</strong> — Mays Business School</div></div>
+      <div class="cred"><div class="cd"></div><div class="ct"><strong>Founder &amp; CEO</strong> — utilITise | Self-Healing IT</div></div>
+      <div class="cred"><div class="cd"></div><div class="ct"><strong>President</strong> — OPEN Houston</div></div>
+      <div class="cred"><div class="cd"></div><div class="ct"><strong>Forbes Tech Council &amp; Communications Council</strong> — Member &amp; Author</div></div>
+      <div class="cred"><div class="cd"></div><div class="ct"><strong>Senior Executive AI Think Tank</strong> — Member</div></div>
+      <div class="cred"><div class="cd"></div><div class="ct"><strong>CRN 2023 Next-Gen Solution Provider Leader</strong></div></div>
+      <div class="cred"><div class="cd"></div><div class="ct"><strong>Adweek</strong> — Featured Panelist, AI &amp; Marketing Innovation</div></div>
+      <div class="cred"><div class="cd"></div><div class="ct"><strong>Patent-Pending Inventor</strong> — Agentic IT Infrastructure</div></div>
+      <div class="cred"><div class="cd"></div><div class="ct"><strong>Texas A&amp;M University</strong> — Mays Business School, Executive MBA</div></div>
     </div>
   </div>
 </section>
 
-<!-- WRITING -->
-<section class="writing" id="writing">
-  <div class="writing-top reveal">
+<section class="pubs reveal" id="pubs">
+  <div class="pt">
+    <div><p class="stag">Published Work</p><h2 class="ph">Thinking<br>in <em>public.</em></h2></div>
+    <div class="pm"><div class="pn">12+</div><div class="ps">Publications &amp; Features</div></div>
+  </div>
+  <div class="pg reveal d1">
+    <a href="https://www.forbes.com/councils/forbestechcouncil/2026/02/09/five-levels-of-ai-adoption-why-the-ai-bubble-is-just-the-tutorial/" target="_blank" rel="noopener" class="pc"><div class="po">Forbes Tech Council</div><div class="pti">Five Levels Of AI Adoption: Why The AI 'Bubble' Is Just The Tutorial</div><div class="pd">Feb 2026</div><div class="pa">↗</div></a>
+    <a href="https://www.forbes.com/councils/forbestechcouncil/2025/10/13/the-five-facets-of-ai-understanding-investment-value-and-business-impact/" target="_blank" rel="noopener" class="pc"><div class="po">Forbes Tech Council</div><div class="pti">Five Facets Of AI: Understanding Investment, Value And Business Impact</div><div class="pd">Oct 2025</div><div class="pa">↗</div></a>
+    <a href="https://www.adweek.com/creativity/balancing-innovation-authenticity-and-human-creativity-with-ai/" target="_blank" rel="noopener" class="pc"><div class="po">Adweek</div><div class="pti">Balancing Innovation, Authenticity, and Human Creativity With AI</div><div class="pd">2025 · Panelist</div><div class="pa">↗</div></a>
+    <a href="https://seniorexecutive.com/profile/Salim-Gheewalla-Founder-CEO-utilITise/bc32221e-39b7-49a7-a6b3-bee657e8ed30" target="_blank" rel="noopener" class="pc"><div class="po">Senior Executive AI Think Tank</div><div class="pti">GPT-5: The Strategic Edge for AI-Driven Enterprises</div><div class="pd">Sep 2025</div><div class="pa">↗</div></a>
+    <a href="https://www.forbes.com/councils/forbescommunicationscouncil/2025/04/18/only-3-of-brands-get-it-how-customer-love-drives-exponential-growth/" target="_blank" rel="noopener" class="pc"><div class="po">Forbes Communications Council</div><div class="pti">Only 3% Of Brands Get It: How Customer Love Drives Exponential Growth</div><div class="pd">Apr 2025</div><div class="pa">↗</div></a>
+    <a href="https://www.forbes.com/councils/forbescommunicationscouncil/2025/01/14/aspirational-marketing-balancing-dreams-and-reality-in-brand-storytelling/" target="_blank" rel="noopener" class="pc"><div class="po">Forbes Communications Council</div><div class="pti">Aspirational Marketing: Balancing Dreams And Reality In Brand Storytelling</div><div class="pd">Jan 2025</div><div class="pa">↗</div></a>
+    <a href="https://www.crn.com/rankings-and-lists/next-gen-2023-details" target="_blank" rel="noopener" class="pc"><div class="po">CRN</div><div class="pti">2023 Next-Gen Solution Provider Leader — Top 40-Under-40 Channel Leaders</div><div class="pd">2023 · Recognition</div><div class="pa">↗</div></a>
+    <a href="https://www.forbes.com/councils/forbescommunicationscouncil/2024/09/13/balancing-innovation-and-familiarity-how-brands-can-evolve-without-alienating-loyal-customers/" target="_blank" rel="noopener" class="pc"><div class="po">Forbes Communications Council</div><div class="pti">Balancing Innovation And Familiarity: How Brands Can Evolve Without Alienating Loyal Customers</div><div class="pd">Sep 2024</div><div class="pa">↗</div></a>
+    <a href="https://www.forbes.com/councils/forbescommunicationscouncil/2024/08/15/the-loyalty-paradox-why-brands-should-reciprocate-customer-devotion/" target="_blank" rel="noopener" class="pc"><div class="po">Forbes Communications Council</div><div class="pti">The Loyalty Paradox: Why Brands Should Reciprocate Customer Devotion</div><div class="pd">Aug 2024</div><div class="pa">↗</div></a>
+    <a href="https://www.forbes.com/councils/forbescommunicationscouncil/2024/04/29/navigating-data-breach-communication-a-blueprint-for-executives/" target="_blank" rel="noopener" class="pc"><div class="po">Forbes Communications Council</div><div class="pti">Navigating Data Breach Communication: A Blueprint For Executives</div><div class="pd">Apr 2024</div><div class="pa">↗</div></a>
+    <a href="https://www.corporatecomplianceinsights.com/author/salim-gheewalla/" target="_blank" rel="noopener" class="pc"><div class="po">Corporate Compliance Insights</div><div class="pti">Cybersecurity &amp; Crisis Communication — Executive Guides</div><div class="pd">2024 · Author</div><div class="pa">↗</div></a>
+    <a href="https://shoutouthtx.com/meet-salim-gheewalla-founder-ceo-utilitise-technologist-marketer-community-builder/" target="_blank" rel="noopener" class="pc"><div class="po">ShoutoutHTX</div><div class="pti">Meet Salim Gheewalla — Technologist, Marketer, Community Builder</div><div class="pd">Feature</div><div class="pa">↗</div></a>
+  </div>
+</section>
+
+<section class="rec reveal">
+  <p class="stag">Recognition</p>
+  <div class="rg">
+    <div class="ri"><div class="rn">I</div><div class="rt">Forbes Tech Council</div><div class="rs">Member &amp; Published Author<br>AI · IT · Emerging Technology</div></div>
+    <div class="ri"><div class="rn">II</div><div class="rt">Adweek Panelist</div><div class="rs">AI &amp; Marketing Innovation<br>ADWEEK House Austin 2025</div></div>
+    <div class="ri"><div class="rn">III</div><div class="rt">CRN Next-Gen Leader 2023</div><div class="rs">Top 40-under-40 Channel Leaders<br>Solution Provider Excellence</div></div>
+    <div class="ri"><div class="rn">IV</div><div class="rt">Patent-Pending Inventor</div><div class="rs">Agentic IT infrastructure<br>Self-Healing IT category</div></div>
+  </div>
+</section>
+
+<section class="community reveal" id="community">
+  <p class="stag">Community &amp; Leadership</p>
+  <div class="oh">
     <div>
-      <p class="section-tag">Published Work</p>
-      <h2 class="writing-hed">Thinking<br>in <em>public.</em></h2>
+      <h2 class="ohed">Leading<br><em>Houston's</em><br>entrepreneurial<br>community.</h2>
+      <p class="obody">As President of OPEN Houston, I lead one of the region's most active professional networks for entrepreneurs and executives — championing collaboration, mentorship, and cross-industry connection between Houston's business leaders, innovators, and investors.</p>
+      <a href="https://openhouston.org" target="_blank" rel="noopener" class="olink">Visit OPEN Houston</a>
     </div>
-    <div class="writing-meta">
-      <div class="writing-count">09</div>
-      <div class="writing-sub">Forbes Articles</div>
+    <div>
+      <div class="osg">
+        <div class="osi"><div class="osn">President</div><div class="osl">OPEN Houston · 2025–Present</div></div>
+        <div class="osi"><div class="osn">National</div><div class="osl">Representing Houston at global OPEN events</div></div>
+        <div class="osi"><div class="osn">Mentor</div><div class="osl">Always a mentor and mentee</div></div>
+        <div class="osi"><div class="osn">Builder</div><div class="osl">Connecting founders, investors &amp; executives</div></div>
+      </div>
     </div>
   </div>
-
-  <div class="grid-9 reveal reveal-d1">
-    <a href="https://www.forbes.com/councils/forbestechcouncil/2026/02/09/five-levels-of-ai-adoption-why-the-ai-bubble-is-just-the-tutorial/" target="_blank" rel="noopener" class="art-card">
-      <div class="art-pub">Forbes Tech Council</div>
-      <div class="art-title">Five Levels Of AI Adoption: Why The AI 'Bubble' Is Just The Tutorial</div>
-      <div class="art-date">February 2026</div>
-      <div class="art-arrow">↗</div>
-    </a>
-    <a href="https://www.forbes.com/councils/forbestechcouncil/2025/10/13/the-five-facets-of-ai-understanding-investment-value-and-business-impact/" target="_blank" rel="noopener" class="art-card">
-      <div class="art-pub">Forbes Tech Council</div>
-      <div class="art-title">Five Facets Of AI: Understanding Investment, Value And Business Impact</div>
-      <div class="art-date">October 2025</div>
-      <div class="art-arrow">↗</div>
-    </a>
-    <a href="https://www.forbes.com/councils/forbescommunicationscouncil/2025/04/18/only-3-of-brands-get-it-how-customer-love-drives-exponential-growth/" target="_blank" rel="noopener" class="art-card">
-      <div class="art-pub">Forbes Communications Council</div>
-      <div class="art-title">Only 3% Of Brands Get It: How Customer Love Drives Exponential Growth</div>
-      <div class="art-date">April 2025</div>
-      <div class="art-arrow">↗</div>
-    </a>
-    <a href="https://www.forbes.com/councils/forbescommunicationscouncil/2025/01/14/aspirational-marketing-balancing-dreams-and-reality-in-brand-storytelling/" target="_blank" rel="noopener" class="art-card">
-      <div class="art-pub">Forbes Communications Council</div>
-      <div class="art-title">Aspirational Marketing: Balancing Dreams And Reality In Brand Storytelling</div>
-      <div class="art-date">January 2025</div>
-      <div class="art-arrow">↗</div>
-    </a>
-    <a href="https://www.forbes.com/councils/forbescommunicationscouncil/2024/09/13/balancing-innovation-and-familiarity-how-brands-can-evolve-without-alienating-loyal-customers/" target="_blank" rel="noopener" class="art-card">
-      <div class="art-pub">Forbes Communications Council</div>
-      <div class="art-title">Balancing Innovation And Familiarity: How Brands Can Evolve Without Alienating Loyal Customers</div>
-      <div class="art-date">September 2024</div>
-      <div class="art-arrow">↗</div>
-    </a>
-    <a href="https://www.forbes.com/councils/forbescommunicationscouncil/2024/08/15/the-loyalty-paradox-why-brands-should-reciprocate-customer-devotion/" target="_blank" rel="noopener" class="art-card">
-      <div class="art-pub">Forbes Communications Council</div>
-      <div class="art-title">The Loyalty Paradox: Why Brands Should Reciprocate Customer Devotion</div>
-      <div class="art-date">August 2024</div>
-      <div class="art-arrow">↗</div>
-    </a>
-    <a href="https://www.forbes.com/councils/forbescommunicationscouncil/2024/04/05/how-partnerships-and-alliances-build-credibility-in-marketing/" target="_blank" rel="noopener" class="art-card">
-      <div class="art-pub">Forbes Communications Council</div>
-      <div class="art-title">How Partnerships And Alliances Build Credibility In Marketing</div>
-      <div class="art-date">April 2024</div>
-      <div class="art-arrow">↗</div>
-    </a>
-    <a href="https://www.forbes.com/councils/forbescommunicationscouncil/2024/02/05/how-to-maximize-your-b2bs-value-through-marketing-in-2024/" target="_blank" rel="noopener" class="art-card">
-      <div class="art-pub">Forbes Communications Council</div>
-      <div class="art-title">How To Maximize Your B2B's Value Through Marketing In 2024</div>
-      <div class="art-date">February 2024</div>
-      <div class="art-arrow">↗</div>
-    </a>
-    <a href="https://www.forbes.com/councils/forbescommunicationscouncil/2024/04/29/navigating-data-breach-communication-a-blueprint-for-executives/" target="_blank" rel="noopener" class="art-card">
-      <div class="art-pub">Forbes Communications Council</div>
-      <div class="art-title">Navigating Data Breach Communication: A Blueprint For Executives</div>
-      <div class="art-date">April 2024</div>
-      <div class="art-arrow">↗</div>
-    </a>
+  <div class="cg">
+    <div class="ci"><div class="crl">Academic</div><div class="corg">University of Houston</div><div class="cdesc">Guest Lecturer, Senior Digital Media — College of Engineering. Advisory Board Member, Digital Media Program. Guiding the next generation of tech and marketing innovators since 2022.</div></div>
+    <div class="ci"><div class="crl">Industry Advisory</div><div class="corg">HPE Aruba Networking</div><div class="cdesc">Former member of the HPE Aruba Networking Marketing Advisory Forum. Providing strategic guidance on go-to-market and channel partner strategy across the networking industry.</div></div>
+    <div class="ci"><div class="crl">Creative &amp; Brand</div><div class="corg">KIND/RED</div><div class="cdesc">Founding Partner. A creative community for bold thinkers building at the intersection of culture, brand, and business. Houston-rooted, nationally connected.</div></div>
   </div>
 </section>
 
-<!-- RECOGNITION -->
-<section class="recognition reveal">
-  <p class="section-tag">Recognition</p>
-  <div class="rec-grid">
-    <div class="rec-item">
-      <div class="rec-n">I</div>
-      <div class="rec-title">Forbes Tech Council</div>
-      <div class="rec-sub">Member &amp; Published Author<br>AI · IT · Emerging Technology</div>
+<section class="career reveal" id="career">
+  <div class="ci2">
+    <div>
+      <p class="stag">Career</p>
+      <h2 class="ch">Built<br>across<br><em>fifteen<br>years.</em></h2>
+      <p class="cn">Five companies through M&amp;A. One IPO. $200M+ in IT divisions. 200+ strategic partnerships. One category created.</p>
     </div>
-    <div class="rec-item">
-      <div class="rec-n">II</div>
-      <div class="rec-title">CRN Next-Gen Leader 2023</div>
-      <div class="rec-sub">Top 40-under-40 Channel Leaders<br>Solution Provider Excellence</div>
-    </div>
-    <div class="rec-item">
-      <div class="rec-n">III</div>
-      <div class="rec-title">Senior Executive AI Think Tank</div>
-      <div class="rec-sub">Curated leaders in ML, generative AI<br>and enterprise AI applications</div>
-    </div>
-    <div class="rec-item">
-      <div class="rec-n">IV</div>
-      <div class="rec-title">Patent-Pending Inventor</div>
-      <div class="rec-sub">Agentic IT infrastructure<br>Self-Healing IT category</div>
+    <div>
+      <div class="tl">
+        <div class="ti"><div class="tdw"><div class="tdo"></div><div class="tline"></div></div><div><div class="tp">2025 — Present</div><div class="tro">Founder &amp; CEO</div><div class="to">utilITise — Self-Healing IT</div><div class="td">Building the Self-Healing IT category. Agentic AI platform that autonomously resolves IT issues for SMBs. Patent-pending. Early revenue stage. Seed round in progress.</div></div></div>
+        <div class="ti"><div class="tdw"><div class="tdo"></div><div class="tline"></div></div><div><div class="tp">2022 — 2025</div><div class="tro">VP &amp; Divisional CMO, Marketing &amp; Alliances</div><div class="to">Calian IT &amp; Cyber Solutions ($700M public company)</div><div class="td">Led marketing and partner strategy for the U.S. IT &amp; cybersecurity division. 200+ strategic alliances including Cisco, Nutanix, Fortinet, Microsoft, and HPE. CRN Next-Gen Leader 2023.</div></div></div>
+        <div class="ti"><div class="tdw"><div class="tdo"></div><div class="tline"></div></div><div><div class="tp">2020 — 2022</div><div class="tro">VP Marketing Communications</div><div class="to">Computex Technology Solutions (NASDAQ: AVCT)</div><div class="td">IPO leadership via SPAC. Brand integration across acquisition of Kandy Communications. $22M ARR growth through rebranding and managed services packaging.</div></div></div>
+        <div class="ti"><div class="tdw"><div class="tdo"></div><div class="tline"></div></div><div><div class="tp">2013 — 2020</div><div class="tro">Director, Marketing &amp; Alliances</div><div class="to">Computex Technology Solutions</div><div class="td">8 years. Led 5 companies through mergers and acquisitions. Triple-digit growth in recurring revenue. Brand architect across three acquisitions.</div></div></div>
+        <div class="ti"><div class="tdw"><div class="tdo"></div><div class="tline"></div></div><div><div class="tp">2021 — Present</div><div class="tro">Founder &amp; Fractional CMO</div><div class="to">1 Brand Story</div><div class="td">Fractional CMO consultancy helping ambitious companies scale with clarity and premium positioning across IT, cybersecurity, SaaS, and retail.</div></div></div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- BUILDING -->
 <section class="building reveal" id="building">
-  <div class="building-left">
-    <p class="section-tag">Currently Building</p>
-    <h2 class="building-hed">What if IT<br>just <em>worked?</em></h2>
-    <p class="building-body">
-      utilITise is agentic AI software that autonomously detects, troubleshoots, and resolves IT issues — before anyone notices they exist. Built for businesses running without a dedicated IT team.
-    </p>
-    <blockquote class="building-quote">
-      "The most valuable AI applications won't be the ones that impress you in a demo. They'll be the ones you never notice running."
-    </blockquote>
-    <div class="logo-wrap">
-      <a href="https://utilitise.com" target="_blank" rel="noopener">
-        <img src="utilitise-logo.png" alt="utilITise — Self Healing IT Solutions">
-      </a>
-    </div>
-    <a href="https://utilitise.com" target="_blank" rel="noopener" class="btn-gold"><span>Visit utilITise ↗</span></a>
+  <div>
+    <p class="stag">Currently Building</p>
+    <h2 class="bh">What if IT<br>just <em>worked?</em></h2>
+    <p class="bb">utilITise is agentic AI software that autonomously detects, troubleshoots, and resolves IT issues — before anyone notices they exist. Built for businesses running without a dedicated IT team.</p>
+    <blockquote class="bq">"The most valuable AI applications won't be the ones that impress you in a demo. They'll be the ones you never notice running."</blockquote>
+    <div class="lw"><a href="https://utilitise.com" target="_blank" rel="noopener"><img src="utilitise-logo.png" alt="utilITise — Self Healing IT Solutions"></a></div>
+    <a href="https://utilitise.com" target="_blank" rel="noopener" class="bg"><span>Visit utilITise ↗</span></a>
   </div>
-
-  <div class="building-right reveal reveal-d2">
-    <div class="features">
-      <div class="feat">
-        <div class="feat-n">I</div>
-        <div>
-          <div class="feat-title">Self-Healing IT</div>
-          <div class="feat-desc">Systems that monitor, detect, and resolve IT issues autonomously — within defined guardrails you set. No ticket required.</div>
-        </div>
-      </div>
-      <div class="feat">
-        <div class="feat-n">II</div>
-        <div>
-          <div class="feat-title">D.O.N.N.A.</div>
-          <div class="feat-desc">Operational intelligence layer. Agentic AI that acts as an autonomous IT operator — not a copilot, not a dashboard.</div>
-        </div>
-      </div>
-      <div class="feat">
-        <div class="feat-n">III</div>
-        <div>
-          <div class="feat-title">Built for the 99%</div>
-          <div class="feat-desc">10–100 employees. No dedicated IT staff. The market every enterprise AI company is skipping.</div>
-        </div>
-      </div>
-      <div class="feat">
-        <div class="feat-n">IV</div>
-        <div>
-          <div class="feat-title">Currently Raising</div>
-          <div class="feat-desc">Seed round. Early revenue stage. Live deployments. Houston-based, building nationally.</div>
-        </div>
-      </div>
-    </div>
+  <div class="feats reveal d2">
+    <div class="feat"><div class="fn">I</div><div><div class="ft">Self-Healing IT</div><div class="fd">Systems that monitor, detect, and resolve IT issues autonomously — within defined guardrails. No ticket required.</div></div></div>
+    <div class="feat"><div class="fn">II</div><div><div class="ft">D.O.N.N.A.</div><div class="fd">Operational intelligence layer. Agentic AI acting as an autonomous IT operator — not a copilot, not a dashboard.</div></div></div>
+    <div class="feat"><div class="fn">III</div><div><div class="ft">Built for the 99%</div><div class="fd">10–100 employees. No dedicated IT staff. The market every enterprise AI company is skipping.</div></div></div>
+    <div class="feat"><div class="fn">IV</div><div><div class="ft">Currently Raising</div><div class="fd">Seed round. Early revenue. Live deployments. Houston-based, building nationally.</div></div></div>
   </div>
 </section>
 
-<!-- CONTACT -->
+<section class="speaking reveal">
+  <p class="stag">Speaking &amp; Teaching</p>
+  <div class="spg">
+    <div class="spi"><div class="spty">Academia</div><div class="spti">University of Houston</div><div class="spd">Guest Lecturer, Senior Digital Media — College of Engineering. Inspiring the next generation of technology and marketing leaders since 2023.</div></div>
+    <div class="spi"><div class="spty">Industry</div><div class="spti">Forbes Expert Panels</div><div class="spd">Forbes Tech Council and Forbes Communications Council contributor. Expert panel member on AI adoption, brand strategy, and cybersecurity communications.</div></div>
+    <div class="spi"><div class="spty">Executive</div><div class="spti">Senior Executive AI Think Tank</div><div class="spd">Strategic guidance on AI orchestration, cybersecurity compliance, and enterprise AI adoption for a curated network of C-suite leaders.</div></div>
+  </div>
+</section>
+
 <section class="contact reveal" id="contact">
-  <div class="contact-ghost">SG</div>
-  <p class="section-tag" style="justify-content:center;margin-bottom:2.5rem;">Connect</p>
-  <h2 class="contact-hed">Let's <em>talk.</em></h2>
-  <p class="contact-sub">Investor conversations · Speaking · Collaboration</p>
-  <div class="contact-btns">
-    <a href="https://www.linkedin.com/in/iamsalim/" target="_blank" rel="noopener" class="c-btn primary">LinkedIn</a>
-    <a href="mailto:salim@gheewalla.org" class="c-btn">Email</a>
-    <a href="https://iamsalim.substack.com" target="_blank" rel="noopener" class="c-btn">Newsletter</a>
-    <a href="https://utilitise.com" target="_blank" rel="noopener" class="c-btn">utilITise</a>
-    <a href="https://twitter.com/iamsalimg" target="_blank" rel="noopener" class="c-btn">X / Twitter</a>
-    <a href="https://www.crunchbase.com/person/salim-gheewalla" target="_blank" rel="noopener" class="c-btn">Crunchbase</a>
+  <div class="cgh">SG</div>
+  <p class="stag" style="justify-content:center;margin-bottom:2.5rem;">Connect</p>
+  <h2 class="conthed">Let's <em>talk.</em></h2>
+  <p class="contsub">Investor conversations · Speaking · Collaboration · Press</p>
+  <div class="cbs">
+    <a href="https://www.linkedin.com/in/iamsalim/" target="_blank" rel="noopener" class="cb p">LinkedIn</a>
+    <a href="mailto:salim@gheewalla.org" class="cb">Email</a>
+    <a href="https://iamsalim.substack.com" target="_blank" rel="noopener" class="cb">Newsletter</a>
+    <a href="https://utilitise.com" target="_blank" rel="noopener" class="cb">utilITise</a>
+    <a href="https://twitter.com/iamsalimg" target="_blank" rel="noopener" class="cb">X / Twitter</a>
+    <a href="https://www.crunchbase.com/person/salim-gheewalla" target="_blank" rel="noopener" class="cb">Crunchbase</a>
   </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
-  <div class="f-logo">Salim Gheewalla</div>
-  <div class="f-copy">© 2026 · gheewalla.org</div>
-  <div class="f-links">
+  <div class="flo">Salim Gheewalla</div>
+  <div class="fco">© 2026 · gheewalla.org</div>
+  <div class="fli">
     <a href="https://utilitise.com" target="_blank">utilITise</a>
+    <a href="https://openhouston.org" target="_blank">OPEN Houston</a>
     <a href="https://iamsalim.substack.com" target="_blank">Substack</a>
     <a href="https://www.linkedin.com/in/iamsalim/" target="_blank">LinkedIn</a>
     <a href="https://twitter.com/iamsalimg" target="_blank">X</a>
@@ -757,30 +428,17 @@ footer {
 </footer>
 
 <script>
-// Cursor
-const cur = document.getElementById('cur');
-const ring = document.getElementById('cur-ring');
+const cur=document.getElementById('cur'),ring=document.getElementById('ring');
 let mx=0,my=0,rx=0,ry=0;
-document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;});
-(function tick(){
-  cur.style.left=mx+'px'; cur.style.top=my+'px';
-  rx+=(mx-rx)*.1; ry+=(my-ry)*.1;
-  ring.style.left=rx+'px'; ring.style.top=ry+'px';
-  requestAnimationFrame(tick);
-})();
+document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY});
+(function t(){cur.style.left=mx+'px';cur.style.top=my+'px';rx+=(mx-rx)*.1;ry+=(my-ry)*.1;ring.style.left=rx+'px';ring.style.top=ry+'px';requestAnimationFrame(t)})();
 document.querySelectorAll('a,button').forEach(el=>{
-  el.addEventListener('mouseenter',()=>document.body.classList.add('link-hover'));
-  el.addEventListener('mouseleave',()=>document.body.classList.remove('link-hover'));
+  el.addEventListener('mouseenter',()=>document.body.classList.add('lh'));
+  el.addEventListener('mouseleave',()=>document.body.classList.remove('lh'));
 });
-
-// Nav
 const nav=document.getElementById('nav');
-window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>60));
-
-// Reveal
-const obs=new IntersectionObserver(entries=>{
-  entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('in'); });
-},{threshold:.12});
+window.addEventListener('scroll',()=>nav.classList.toggle('sc',scrollY>60));
+const obs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('in')}),{threshold:.1});
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
 </script>
 </body>
