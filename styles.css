@@ -25,3 +25,19 @@
 @media(prefers-reduced-motion:reduce){.conversation-card{transition:none}.conversation-card:hover{transform:none}}
 
 .credibility-strip .proof-grid>a{display:block}.ideas .founder-thesis h2{font-size:clamp(35px,4vw,56px);margin-bottom:35px}.section{scroll-margin-top:85px}
+
+/* Compact editorial event gallery. */
+.event-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-bottom:20px}
+.event-gallery .field-photo{overflow:hidden;background:#121613;border:1px solid #303c33;border-radius:4px;scroll-margin-top:110px;transition:border-color .2s}
+.event-gallery .field-photo:hover{border-color:#78937f}
+.event-gallery .field-photo figure{height:100%;display:flex;flex-direction:column}
+.event-gallery .field-photo img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;object-position:center;filter:saturate(.78)}
+.event-gallery #houston-ai-club-panel img{object-position:center 78%}
+.event-gallery #manufacturing-panel img{object-position:center 47%}
+.event-gallery .field-photo figcaption{padding:20px 20px 18px;display:flex;flex-direction:column;flex:1}
+.event-gallery .field-photo figcaption>span{font-size:10px;letter-spacing:.09em;color:#9caf9f;margin:0 0 12px}
+.event-gallery .field-photo h3{font-size:22px;line-height:1.25;margin:0 0 18px;letter-spacing:-.02em;color:#f0eee5}
+.event-gallery .field-photo figcaption>p{font-size:13px;color:#adb8ae;margin:auto 0 0;line-height:1.5}
+.event-gallery+.photo-credit{font-size:11px;line-height:1.6;max-width:780px;margin-bottom:38px}
+@media(max-width:760px){.event-gallery{grid-template-columns:1fr;gap:20px}.event-gallery .field-photo img{aspect-ratio:16/9;max-height:240px}.event-gallery .field-photo figcaption{padding:18px}.event-gallery .field-photo h3{font-size:22px;margin-bottom:12px}}
+@media(prefers-reduced-motion:reduce){.event-gallery .field-photo{transition:none}}
