@@ -43,3 +43,11 @@
 @media(prefers-reduced-motion:reduce){.event-gallery .field-photo{transition:none}}
 
 .conference-moment{margin:0;align-self:start;scroll-margin-top:110px}.conference-moment img{display:block;width:100%;height:auto;border:1px solid #354338;border-radius:4px}.conference-moment figcaption{font:11px/1.8 monospace;color:#aebcaf;margin-top:15px;letter-spacing:.04em}.conference-moment blockquote{font:italic 32px/1.3 'Cormorant Garamond',Georgia,serif;color:#a3bea9;margin:28px 0 0;padding-top:25px;border-top:1px solid var(--line)}@media(max-width:760px){.conference-moment{margin-bottom:35px}.conference-moment blockquote{font-size:28px}}
+
+/* Search-friendly context and personal channel */
+.channel-follow{display:flex;align-items:center;justify-content:space-between;gap:32px;padding-top:32px;margin-top:36px;border-top:1px solid var(--line,#30332e)}
+.channel-follow h3{font-size:27px;margin:8px 0 12px}.channel-follow p{max-width:600px}.channel-follow .button{flex-shrink:0}
+.answer-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 40px}.answer-grid .topic p{max-width:640px}.answer-grid a{text-decoration:underline;text-underline-offset:3px}
+.connect-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:1000px){.connect-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.channel-follow{align-items:flex-start;flex-direction:column}.answer-grid,.connect-grid{grid-template-columns:1fr}}
