@@ -54,3 +54,7 @@
 
 /* Keep the square headshot aligned at the top without cropping the face. */
 .hero-image img{object-position:50% 0%}
+
+/* Feather the portrait into the surrounding black, eliminating its hard edge. */
+.hero-image{-webkit-mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.12) 10%,rgba(0,0,0,.55) 23%,#000 43%);mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.12) 10%,rgba(0,0,0,.55) 23%,#000 43%)}
+@media(max-width:760px){.hero-image{-webkit-mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.65) 7%,#000 19%);mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.65) 7%,#000 19%)}}
