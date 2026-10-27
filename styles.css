@@ -58,3 +58,21 @@
 /* Feather the portrait into the surrounding black, eliminating its hard edge. */
 .hero-image{-webkit-mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.12) 10%,rgba(0,0,0,.55) 23%,#000 43%);mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.12) 10%,rgba(0,0,0,.55) 23%,#000 43%)}
 @media(max-width:760px){.hero-image{-webkit-mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.65) 7%,#000 19%);mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.65) 7%,#000 19%)}}
+
+/* Keep each appearance's photo, date, role and session together. */
+.appearances{display:grid;gap:0;margin:12px 0 24px}
+.appearance{display:grid;grid-template-columns:260px minmax(0,1fr);gap:36px;align-items:start;padding:32px 0;border-top:1px solid #354139;scroll-margin-top:110px}
+.appearance:last-child{border-bottom:1px solid #354139}
+.appearance-photo{display:block;border-radius:4px;overflow:hidden;background:#141a16;border:1px solid #303c33}
+.appearance-photo img{display:block;width:100%;height:180px;object-fit:cover}
+.appearance-poster img{height:300px;object-fit:contain;background:#101310}
+.appearance-copy{min-width:0}
+.appearance-copy .appearance-meta{font:11px/1.6 monospace;letter-spacing:.08em;color:#aec2b1;margin:0 0 12px}
+.appearance-copy h3{font-size:26px;line-height:1.2;margin:0 0 16px;color:#f0eee5}
+.appearance-copy p{font-size:14px;line-height:1.7;color:#adb8ae;margin:0 0 12px;max-width:680px}
+.appearance-copy .appearance-note{font-size:12px;color:#93a093}
+.appearance-copy .text-link{margin-top:6px;font-size:13px}
+.appearance-text-only{grid-template-columns:1fr;padding-left:296px}
+.appearances+.photo-credit{font-size:11px;line-height:1.6;color:#8e9a90;margin-bottom:56px;max-width:850px}
+@media(max-width:760px){.appearance{grid-template-columns:160px minmax(0,1fr);gap:22px}.appearance-photo img{height:140px}.appearance-poster img{height:220px}.appearance-copy h3{font-size:22px}.appearance-text-only{grid-template-columns:1fr;padding-left:182px}}
+@media(max-width:560px){.appearance{grid-template-columns:1fr;gap:20px;padding:26px 0}.appearance-photo{max-width:100%;width:100%}.appearance-photo img{height:auto;aspect-ratio:16/10}.appearance-poster{width:230px}.appearance-poster img{height:auto;aspect-ratio:966/1202;object-fit:contain}.appearance-copy h3{font-size:23px}.appearance-text-only{padding-left:0}.appearance-copy .appearance-meta{font-size:10px}}
