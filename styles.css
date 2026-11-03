@@ -76,3 +76,8 @@
 .appearances+.photo-credit{font-size:11px;line-height:1.6;color:#8e9a90;margin-bottom:56px;max-width:850px}
 @media(max-width:760px){.appearance{grid-template-columns:160px minmax(0,1fr);gap:22px}.appearance-photo img{height:140px}.appearance-poster img{height:220px}.appearance-copy h3{font-size:22px}.appearance-text-only{grid-template-columns:1fr;padding-left:182px}}
 @media(max-width:560px){.appearance{grid-template-columns:1fr;gap:20px;padding:26px 0}.appearance-photo{max-width:100%;width:100%}.appearance-photo img{height:auto;aspect-ratio:16/10}.appearance-poster{width:230px}.appearance-poster img{height:auto;aspect-ratio:966/1202;object-fit:contain}.appearance-copy h3{font-size:23px}.appearance-text-only{padding-left:0}.appearance-copy .appearance-meta{font-size:10px}}
+
+/* Substack publication feature */
+.substack-feature{display:flex;align-items:center;justify-content:space-between;gap:32px;padding:32px;margin:0 0 30px;border:1px solid var(--line);background:rgba(140,168,145,.07)}
+.substack-feature h3{font-size:clamp(28px,3vw,40px);line-height:1.15;margin:12px 0}.substack-description{color:var(--muted);font-size:16px;line-height:1.6;max-width:560px}.substack-feature .button{flex-shrink:0}
+@media(max-width:700px){.substack-feature{flex-direction:column;align-items:flex-start;padding:24px;gap:22px}}
