@@ -90,7 +90,7 @@
 .conversation-controls button{background:transparent;color:#e6ece7;border:1px solid #547260;border-radius:4px;padding:0 10px;height:40px;min-width:40px;cursor:pointer}
 .conversation-controls button:hover,.conversation-controls button:focus-visible{background:#294131}
 #conversations .conversation-grid{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:#547260 transparent;padding:3px 2px 10px}
-#conversations .conversation-card{flex:0 0 min(80%,clamp(265px,31%,330px));scroll-snap-align:start}
+#conversations .conversation-card{flex:0 0 min(80%,max(265px,31%));scroll-snap-align:start}
 #conversations .conversation-image{height:clamp(111px,10vw,138px);aspect-ratio:auto}
 #conversations .conversation-copy{padding:12px 15px}
 #conversations .conversation-copy h3{font-size:20px;line-height:1.15;margin:6px 0}
